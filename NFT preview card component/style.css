@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Rubik', sans-serif ;
+    src: url('Rubik-Italic-VariableFont_wght');
+}
+body{
+    background-color:rgb(10, 25, 44);
+    font-family: 'Rubik',sans-serif;
+    /* margin-left: 100px;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-bottom: 25px; */
+}
+header > div{
+    display: flex
+
+}
+.Imagem_principal{
+    display: flex;
+    justify-content:flex-start;
+    border-radius: 25px;
+    padding: 15px;
+}
+h3{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;;
+    color: rgb(89, 111, 142);
+
+}
+span{
+    color: rgb(89, 111, 142);
+}
+.icom{
+    /* display: flex;
+    height: 15px; 
+    #2AF598
+    rgba(0, 158, 253, 1)
+    */
+    width: 15px;
+    height: auto;
+    color: #2AF598;
+}
+label {
+    display: inline;
+    justify-content: flex-start;
+    color: rgb(234, 237, 239) ;
+    font-size: bold;
+    height: 100px
+}
+.informacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+.informacao > h4 {
+    
+    color: rgb(27, 200, 207);
+}
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    border-radius: 15px;
+    margin: 112px auto 0;
+    background-color:rgb(21, 39, 63);
+}
