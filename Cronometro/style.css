@@ -1,0 +1,32 @@
+   header {
+        font-size: 60px;
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+    }
+
+    body {
+        background-color: rgb(221, 169, 72);
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        
+    }
+    .cronometro{
+        font-size: 100%;
+        
+    }
+
+    [type=button] {
+        display: inline;
+        justify-content: center;
+        color: white;
+        height: 30px;
+        margin: 30px;
+        padding: 25px;
+        background-color: rgb(221, 169, 72);
+        border-radius: 5px;
+        border: solid 3px rgb(231, 190, 112);
+        box-shadow: 15px rgb(240, 171, 44);
+
+    }

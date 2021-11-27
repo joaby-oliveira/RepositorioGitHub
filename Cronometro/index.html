@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronometro</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <label for="Texto Principal">
+                Cronometro
+            </label>
+        </div>
+    </header>
+    <div>
+        <p>
+            A Melhor forma de ter um resultando é controlando o tempo que isso leva
+        </p>
+    </div>
+
+    <div class="cronometro">
+        00:00:00
+    </div>
+
+    <div>
+
+        <input type="button" onclick="iniciarCronometro()" value="Start">
+        <input type="button" onclick="paraCronometro()" value="Stop">
+        <input type="button" onclick="resetCronometro()" value="Reset">
+
+    </div>
+
+</body>
+</html>
+<script src="cronometro.js"></script>
+
+
+
