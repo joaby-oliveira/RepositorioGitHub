@@ -17,7 +17,7 @@
         
     }
 
-    [type=button] {
+    .botao{
         display: inline;
         justify-content: center;
         color: white;
@@ -27,6 +27,9 @@
         background-color: rgb(221, 169, 72);
         border-radius: 5px;
         border: solid 3px rgb(231, 190, 112);
-        box-shadow: 15px rgb(240, 171, 44);
+        box-shadow: 2px 2px 1px 1px black
+    }
+    .botao:active{
+        box-shadow:none;
 
     }
